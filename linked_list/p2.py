@@ -15,7 +15,7 @@ class Node(p1.Node):
                 previous.next = node.next
             else:
                 els.append(node.val)
-            previous = node
+                previous = node
             node = node.next
 
 if __name__ == "__main__":
